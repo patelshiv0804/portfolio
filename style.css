@@ -29,14 +29,10 @@ html {
 
 .navbar {
     display: flex;
-
     position: sticky;
     top: 0;
     z-index: 1000;
-
-    /* background-color: #333; */
     background: linear-gradient(145deg, #239BCF 0%, #000 118%);
-
     width: 100%;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
@@ -52,9 +48,7 @@ ul {
     margin-left: 50px;
     font-size: 40px;
     list-style-type: none;
-    /* Remove bullet points */
     padding: 0;
-    /* Remove default padding */
 }
 
 .nav_text {
@@ -71,10 +65,11 @@ ul {
 }
 
 .nav_text a:hover {
-    /* color: rgb(24, 24, 91); */
     color: rgb(40 177 237);
-    /* Change the color on hover if desired */
 }
+
+
+
 
 .middle .upper {
     font-size: 52px;
@@ -2719,6 +2714,11 @@ ul {
 
 }
 
+.phone_info a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .location_info p,
 .phone_info p,
 .gmail_info p,
@@ -2729,7 +2729,6 @@ ul {
     font-size: 23px;
     filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.25));
 }
-
 
 .sixth .sixth_info_right .message_box {
     width: 530px;
@@ -2753,7 +2752,6 @@ ul {
     font-size: 26px;
     padding-left: 20px;
     color: #000;
-
 }
 
 .sixth .sixth_info_right .message_box input::placeholder {
@@ -2776,8 +2774,6 @@ ul {
     max-height: 120px;
     min-height: 50px;
     resize: vertical;
-
-
 }
 
 .sixth .sixth_info_right .message_box textarea::placeholder {
