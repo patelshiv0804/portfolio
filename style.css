@@ -2757,7 +2757,7 @@ ul {
 }
 
 .sixth .sixth_info_right .message_box input::placeholder {
-    color: #000;
+    color: #5c5c5c;
 
 }
 
@@ -2781,7 +2781,7 @@ ul {
 }
 
 .sixth .sixth_info_right .message_box textarea::placeholder {
-    color: #000;
+    color: #5c5c5c;
 
 }
 
@@ -2804,6 +2804,8 @@ ul {
     color: white;
     transition: 0.3s;
 }
+
+
 
 @media (max-width: 1440px) and (min-width: 1023px) {
 
